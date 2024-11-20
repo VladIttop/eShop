@@ -1,0 +1,21 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /E-shop/",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "sass": "^1.80.3"
+  }
+}
