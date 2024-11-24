@@ -1,0 +1,147 @@
+.footer {
+  padding: 48px 0 38px 0;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-right: 138px;
+
+  &__logo {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__info {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-right: 165px;
+
+  &__title {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+
+    &__item {
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  margin-right: 72px;
+
+  &__title {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .help-list {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+
+    &__item {
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+
+.newsletter {
+  display: flex;
+  gap: 53px;
+  flex-direction: column;
+
+  &__title {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .input-form {
+    display: flex;
+    gap: 11px;
+
+    &__input {
+      background-color: white;
+      border: none;
+      outline: none;
+      width: 200px;
+      border-bottom: 1px solid #000;
+      padding: 5px;
+      color: #000;
+
+      &::placeholder {
+        color: #9f9f9f;
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    &__btn {
+      background-color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      border-bottom: 1px solid #000;
+      width: 100px;
+      color: #000;
+      font-size: 14px;
+      font-weight: 50px;
+    }
+  }
+}
+
+.rights {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 35px;
+  flex-direction: column;
+
+  &__line {
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+  }
+
+  &__text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
