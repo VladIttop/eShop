@@ -1,0 +1,34 @@
+.section {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: left;
+  justify-content: center;
+
+  &__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+  }
+  li,
+  p {
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  ul {
+    list-style: disc;
+  }
+}
+.main .inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
