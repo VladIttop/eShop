@@ -1,0 +1,50 @@
+.shop-hero {
+  background-image: url("../images/hero-shop/shop-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  padding: 121px 0 97px 0;
+
+  &__title {
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  &__subtitle {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  &__subtitle--shop {
+    font-weight: 300;
+  }
+}
+
+.filter {
+  padding: 22px 0;
+  background-color: #f9f1e7;
+  .inner-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.filter-icons {
+  display: flex;
+  &__filter {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 23px;
+  }
+}
