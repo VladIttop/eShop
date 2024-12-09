@@ -163,13 +163,14 @@ export const dataJSON = [
   }
 ];
 
+
 const productsList = document.querySelector(".products-list");
 const showMore = document.getElementById("showMore");
 let itemsToShow = 8;
 
 const renderProducts = function(limit) {
   productsList.innerHTML = "";
-  dataJSON.slice(0, limit).forEach((element) => {
+  dataJSON.slice(0, limit).forEach((element) => { 
     const li = document.createElement("li");
     li.classList.add("products-list__item");
 
