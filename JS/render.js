@@ -1,4 +1,4 @@
-const dataJSON = [
+export const dataJSON = [
   {
     id: 1,
     image:

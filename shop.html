@@ -75,16 +75,47 @@
       </section>
       <section class="filter">
         <div class="inner-container">
-          <div class="filter-icons">
+          <ul class="filter-icons">
             <img
               src="./images/shop-filter/filter-icon.png"
               alt="filter icon"
               class="filter-icons__filter"
             />
-            <p class="filter-text__text">Filter</p>
+            <p class="filter-icons__text">Filter</p>
+            <img
+              src="./images/shop-filter/circle.png"
+              alt="4 cirlces"
+              class="filter-icons__circle"
+            />
+            <img
+              src="./images/shop-filter/list.png"
+              alt="view list"
+              class="filter-icons__list"
+            />
+            <div class="icon-line"></div>
+            <p class="filter-icons__number">Showing 1–16 of 32 results</p>
+          </ul>
+
+          <div class="filter-sort">
+            <p class="filter-sort__text">Show</p>
+            <input type="number" class="filter-sort__input" value="16" placeholder="16">
+            <p class="filter-sort__by">Sort by</p>
+            <select class="filter-sort__select">
+              <option value="default">Default</option>
+              <option value="price-asc">Price Ascending</option>
+              <option value="price-desc">Price Descending</option>
+            </select>
           </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="inner-container">
+          <ul class="products-list"></ul>
+
         </div>
       </section>
     </main>
   </body>
+  <script src="./JS/shop.js"></script>
+  <script src="./JS/products.js"></script>
 </html>
